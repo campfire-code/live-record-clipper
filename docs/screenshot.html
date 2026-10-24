@@ -1,12 +1,19 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>直播边录边切</title><style>*{box-sizing:border-box}body{margin:0;width:1040px;height:700px;background:#f4f5f7;font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#1d2129;padding:36px}
-.card{background:#fff;border-radius:20px;height:628px;padding:36px 48px;box-shadow:0 2px 14px rgba(0,0,0,.06);position:relative;display:flex;flex-direction:column}
-.brand{position:absolute;right:32px;top:24px;font-size:13px;color:#8a919c}
-h1{margin:0 0 10px;font-size:34px;font-weight:700}
-.desc{font-size:16px;line-height:1.6;color:#4e5560;margin:0 0 18px}
-h2{font-size:15px;color:#ff6a1a;margin:0 0 10px;letter-spacing:1px}
-ol{margin:0;padding:0;list-style:none;counter-reset:n}
-li{counter-increment:n;display:flex;gap:14px;font-size:16px;line-height:1.55;margin-bottom:10px}
-li:before{content:counter(n);flex:none;width:26px;height:26px;border-radius:50%;background:#fff1e8;color:#ff6a1a;font-weight:700;font-size:14px;text-align:center;line-height:26px;margin-top:1px}
-.fmt{margin-top:auto;background:#f4f5f7;border-radius:12px;padding:14px 18px;font-size:14px;line-height:1.5;color:#4e5560}.fmt b{color:#1d2129}
-.shot{border-radius:10px;border:1px solid #e5e6eb;display:block}
-.clip{height:296px;overflow:hidden;margin:0 0 16px}.desc{margin-bottom:14px}li{margin-bottom:6px;font-size:15px}</style><body><div class="card"><div class="brand">篝火出品</div><h1>直播边录边切</h1><p class="desc">开播自动录制并记录弹幕，边看边用快捷键标出起止位置切片，剪辑、加字幕后可直接投稿到 B 站。</p><div class="shot clip"><img src="public/images/summary.png" style="width:100%;display:block"></div><h2>支持的直播平台</h2><p class="desc" style="margin:0 0 10px">B 站、抖音、斗鱼、TikTok、Twitch、快手、虎牙、YouTube（B 站、抖音需先配置账号）</p><div class="fmt"><b>前置条件　</b>Mac / Linux 需先安装 FFmpeg；界面为简体中文<br><b>交付形式　</b>桌面安装包（Windows .exe，Mac .dmg，Linux AppImage）</div></div></body></html>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>直播边录边切</title><style>
+*{box-sizing:border-box}body{margin:0;width:1040px;height:700px;font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#2a1027;background:#fdf2fb;position:relative;overflow:hidden}
+.hd{position:absolute;left:48px;top:34px}
+h1{margin:0;font-size:36px;color:#B81EAA}.sub{font-size:15px;color:#6b4a67;margin-top:8px}
+.keys{position:absolute;right:48px;top:40px;display:flex;gap:10px;align-items:center;font-size:14px;color:#6b4a67}
+kbd{display:inline-block;min-width:34px;text-align:center;font:600 18px ui-monospace,Menlo,monospace;color:#fff;background:#B81EAA;border-radius:8px;padding:6px 10px;box-shadow:0 3px 0 #8a1280}
+.win{position:absolute;left:48px;top:122px;width:944px;height:620px;border-radius:14px 14px 0 0;background:#fff;box-shadow:0 14px 40px rgba(120,20,110,.25);border:1px solid #f0cdea;overflow:hidden}
+.win .b{height:26px;background:#f8e3f5;display:flex;gap:6px;align-items:center;padding:0 12px}.win .b i{width:9px;height:9px;border-radius:50%;background:#e5a7dc}
+.win img{display:block;width:100%}
+.c{position:absolute;display:flex;align-items:center;gap:8px;background:#B81EAA;color:#fff;border-radius:22px;padding:6px 14px 6px 6px;font-size:13px;box-shadow:0 6px 16px rgba(120,20,110,.35);z-index:3}
+.c b{width:24px;height:24px;border-radius:50%;background:#fff;color:#B81EAA;text-align:center;line-height:24px;font-size:13px}
+</style><body>
+<div class="hd"><h1>直播边录边切</h1><div class="sub">开播自动录制，边看边标起止，切片、加字幕、压弹幕</div></div>
+<div class="keys">回看时按 <kbd>[</kbd> 设起点 <kbd>]</kbd> 设终点</div>
+<div class="win"><div class="b"><i></i><i></i><i></i></div><img src="ui-rooms-zh.png"></div>
+<div class="c" style="left:722px;top:470px"><b>1</b>添加直播间，开播即录</div>
+<div class="c" style="left:722px;top:520px"><b>2</b>录制中的直播间一目了然</div>
+<div class="c" style="left:722px;top:570px"><b>3</b>切片、投稿在左侧</div>
+</body></html>
