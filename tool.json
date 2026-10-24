@@ -1,0 +1,10 @@
+{
+  "id": "c15",
+  "slug": "live-record-clipper",
+  "name": "直播边录边切",
+  "version": "2.24.2-campfire.1",
+  "repo": "campfire-code/live-record-clipper",
+  "license": "MIT",
+  "delivery": "mirror",
+  "upstream": { "repo": "Xinrea/bili-shadowreplay", "license": "MIT", "tag": "v2.24.2" }
+}
